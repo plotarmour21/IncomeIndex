@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-[#f1eeeecc] text-[#000000] font-mono text-xl shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="text-2xl font-bold text-blue-600">
@@ -24,4 +24,3 @@ export default function Navbar() {
     </nav>
   );
 }
-    
